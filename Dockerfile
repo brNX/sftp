@@ -17,4 +17,6 @@ COPY README.md /
 
 EXPOSE 22
 
+VOLUME ["/etc/ssh/hostkey/"]
+
 ENTRYPOINT ["/entrypoint"]
